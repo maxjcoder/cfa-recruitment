@@ -4,7 +4,7 @@
 
 ## Credits
 Credit for the styling of this website must be given to The University of Arizona, specifically team of web-focused volunteers known as Arizona Digital.<b>Built with</b>
-Arizona Bootstrap, 2.0 is built with 
+Arizona Bootstrap, 2.0.
 
 [Site](https://digital.arizona.edu/arizona-bootstrap/)
 

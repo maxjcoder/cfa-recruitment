@@ -1,6 +1,6 @@
 # cfa-recruitment
 
-#### test
+#### https://maxjcoder.github.io/cfa-recruitment/
 
 ## Credits
 Credit for the styling of this website must be given to The University of Arizona, specifically team of web-focused volunteers known as Arizona Digital.<b>Built with</b>

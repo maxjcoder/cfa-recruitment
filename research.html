@@ -111,56 +111,25 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6">
+
 					<div class="row no-gutters bg-light position-relative">
 						<div class="col-md-6 mb-md-0 p-md-4 text-center text-midnight">
 							<i class="fas fa-globe-americas fa-5x"></i>
 							<br />
 							<h5 class="px-4">National</h5>
-
 						</div>
+
 						<div class="col-md-6 position-static p-4 pl-md-0">
 							<h5 class="mt-0">Columns with stretched link</h5>
 							<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
 								sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
 								condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
 							</p>
-
-							<!-- Button trigger modal -->
-							<button type="button" class="btn btn-red" data-toggle="modal" data-target="#nationalData">
-								Launch demo modal
-							</button>
-
-							<!-- Modal -->
-							<div id="nationalData" class="modal fade" tabindex="-1" role="dialog"
-								aria-labelledby="nationalDataLabel" aria-hidden="true">
-								<div class="modal-dialog modal-xl" role="document">
-									<div class="modal-content">
-										
-										<div class="modal-header">
-											<h5 class="modal-title" id="nationalDataLabel">Modal title</h5>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-										<div class="modal-body">
-											<embed src="./assets/pdf/Arizona.pdf" frameborder="0" width="100%"
-												height="724px">
-										</div>
-
-										<div class="modal-footer">
-											<button type="button" class="btn btn-blue"
-												data-dismiss="modal">Close</button>
-											<button type="button" class="btn btn-red">Save changes</button>
-										</div>
-
-									</div>
-								</div>
-							</div>
-
 						</div>
+						
 					</div>
 				</div>
+
 				<div class="col-md-6">
 					<div class="row no-gutters bg-light position-relative">
 						<div class="col-md-6 mb-md-0 p-md-4 text-center text-mesa">
@@ -174,7 +143,52 @@
 								sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
 								condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
 							</p>
-							<a href="#" class="stretched-link">Go somewhere</a>
+
+							<!-- Button trigger modal -->
+							<a class="btn btn-link" data-toggle="modal" data-target="#regionalData">Launch demo
+								modal</a>
+
+							<!-- Modal -->
+							<div id="regionalData" class="modal fade" tabindex="-1" role="dialog"
+								aria-labelledby="regionalDataLabel" aria-hidden="true">
+								<div class="modal-dialog modal-xl" role="document">
+									<div class="modal-content">
+
+										<!--Title-->
+										<div class="modal-header">
+											<h5 class="modal-title" id="regionalDataLabel">Arizona High School Graduate
+												Projections</h5>
+											<br />
+
+											<!--Close Icon-->
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+
+										<!--PDF-->
+										<div class="modal-body">
+											<embed src="./assets/pdf/Arizona.pdf" frameborder="0" width="100%"
+												height="724px">
+										</div>
+
+										<!--Reference-->
+										<div class="ml-3">
+											<small>Reference:</small>
+											<small>Western Interstate Commission for Higher Education. 2020. "Knocking
+												at the College Door". Retrieved from: www.knocking.wiche.edu.</small>
+										</div>
+
+										<!--Close Modal-->
+										<div class="modal-footer">
+											<button type="button" class="btn btn-blue"
+												data-dismiss="modal">Close</button>
+											<br />
+										</div>
+
+									</div>
+								</div>
+							</div>
 
 						</div>
 					</div>

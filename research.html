@@ -54,15 +54,16 @@
 
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
+							<li class="nav-item">
 								<a class="nav-link" href="https://maxjcoder.github.io/cfa-recruitment/index">Objective
 									<span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="https://maxjcoder.github.io/cfa-recruitment/event">Event</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="https://maxjcoder.github.io/cfa-recruitment/research">Research</a>
+							<li class="nav-item active">
+								<a class="nav-link"
+									href="https://maxjcoder.github.io/cfa-recruitment/research">Research</a>
 							</li>
 							<li class="nav-item dropdown">
 								<button class="nav-link dropdown-toggle" id="navbarDropdown1" data-toggle="dropdown"
@@ -101,7 +102,7 @@
 		<!--Event Objective-->
 		<div class="row no-gutters">
 			<div class="col-12">
-				<div class="background-wrapper bg-red bg-triangles-centered text-center">
+				<div class="background-wrapper bg-red bg-triangles-top-left text-center">
 					<h1>Research</h1>
 				</div>
 			</div>
@@ -113,33 +114,33 @@
 
 					<div class="row no-gutters bg-light position-relative">
 						<div class="col-md-6 mb-md-0 p-md-4 text-center text-midnight">
-							<i class="fas fa-globe-americas fa-5x"></i>
+							<i class="fas fa-globe-americas fa-5x"></i><br />
 							<br />
-							<h5 class="px-4">National</h5>
+							<h4 class="mt-0 text-midnight bold">National</h4>
+
 						</div>
 
 						<div class="col-md-6 position-static p-4 pl-md-0">
-							<h5 class="mt-0">Columns with stretched link</h5>
-							<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-								sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-								condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+							<p>Nationally, the number of high school graduates is expected to peak in the mid-2020s
+								before entering a period of modest decline through the end of the projections in 2037.
 							</p>
 
-							
 							<!--Begin Modal-->
 							<!-- Button trigger modal -->
-							<a class="btn btn-link" data-toggle="modal" data-target="#regionalData">Launch demo
-								modal</a>
+							<div class="bg-blue p-3">
+								<a class="btn btn-outline-white" data-toggle="modal" data-target="#nationalData">Data
+									Source</a>
+							</div>
 
 							<!-- Modal -->
-							<div id="regionalData" class="modal fade" tabindex="-1" role="dialog"
-								aria-labelledby="regionalDataLabel" aria-hidden="true">
+							<div id="nationalData" class="modal fade" tabindex="-1" role="dialog"
+								aria-labelledby="nationalDataLabel" aria-hidden="true">
 								<div class="modal-dialog modal-xl" role="document">
 									<div class="modal-content">
 
 										<!--Title-->
 										<div class="modal-header">
-											<h5 class="modal-title" id="regionalDataLabel">Arizona High School Graduate
+											<h5 class="modal-title" id="nationalDataLabel">National High School Graduate
 												Projections</h5>
 											<br />
 
@@ -151,15 +152,17 @@
 
 										<!--PDF-->
 										<div class="modal-body">
-											<embed src="./assets/pdf/Arizona.pdf" frameborder="0" width="100%"
+											<embed src="./assets/pdf/National.pdf" frameborder="0" width="100%"
 												height="724px">
 										</div>
 
 										<!--Reference-->
 										<div class="ml-3">
 											<small>Reference:</small>
-											<small>Western Interstate Commission for Higher Education. 2020. "Knocking
-												at the College Door". Retrieved from: www.knocking.wiche.edu.</small>
+											<small>Western Interstate Commission for Higher Education, "Knocking at the
+												College Door: Projections of High School Graduates", 2020,
+												www.knocking.wiche.edu.</small>
+
 										</div>
 
 										<!--Close Modal-->
@@ -173,9 +176,9 @@
 								</div>
 							</div>
 							<!--End Modal-->
-							
+
 						</div>
-						
+
 
 					</div>
 				</div>
@@ -183,21 +186,21 @@
 				<div class="col-md-6">
 					<div class="row no-gutters bg-light position-relative">
 						<div class="col-md-6 mb-md-0 p-md-4 text-center text-mesa">
-							<i class="fas fa-map-marker-alt fa-5x"></i>
+							<i class="fas fa-map-marker-alt fa-5x"></i><br />
 							<br />
-							<h5 class="px-4">Regional</h5>
+							<h4 class="mt-0 text-mesa bold">Regional</h4>
 						</div>
 						<div class="col-md-6 position-static p-4 pl-md-0">
-							<h5 class="mt-0">Columns with stretched link</h5>
-							<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-								sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-								condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+							<p>Arizona high school graduates are projected to peak in 2026 at 85,030 graduates. Between
+								2018 and 2037, high school graduates are projected to average 78,820 per year.
 							</p>
 
 							<!--Begin Modal-->
 							<!-- Button trigger modal -->
-							<a class="btn btn-link" data-toggle="modal" data-target="#regionalData">Launch demo
-								modal</a>
+							<div class="bg-mesa p-3">
+								<a class="btn btn-outline-white" data-toggle="modal" data-target="#regionalData">Data
+									Source</a>
+							</div>
 
 							<!-- Modal -->
 							<div id="regionalData" class="modal fade" tabindex="-1" role="dialog"
@@ -226,8 +229,14 @@
 										<!--Reference-->
 										<div class="ml-3">
 											<small>Reference:</small>
-											<small>Western Interstate Commission for Higher Education. 2020. "Knocking
-												at the College Door". Retrieved from: www.knocking.wiche.edu.</small>
+											<small>Western Interstate Commission for Higher Education, Knocking at the
+												College Door: Projections of High School Graduates, 2020,
+												www.knocking.wiche.edu.</small><br />
+											<small>Specific to Arizona: Public school graduates for SY 2013-14 to
+												2018-19 are ESTIMATES COMPUTED BY WICHE (not confirmed total annual
+												graduates) using data about graduates from ninth-grade cohorts that
+												WICHE was pointed to at
+												https://www.azed.gov/accountability-research/data/</small>
 										</div>
 
 										<!--Close Modal-->
@@ -251,32 +260,33 @@
 				<div class="col-md-6">
 					<div class="row no-gutters bg-light position-relative">
 						<div class="col-md-6 mb-md-0 p-md-4 text-center text-azurite">
-							<i class="fas fa-university fa-5x"></i>
+							<i class="fas fa-university fa-5x"></i><br />
 							<br />
-							<h5 class="px-4">University</h5>
+							<h4 class="mt-0 text-azurite bold">University</h4>
 						</div>
 						<div class="col-md-6 position-static p-4 pl-md-0">
-							<h5 class="mt-0">Columns with stretched link</h5>
-							<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-								sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-								condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+							<p>Yield count represents the number of students who applied, were admitted, and enrolled
+								for the fall term. Fall 2020 yield is 7,449 from 37,064 admits out of 43,540
+								applications.
 							</p>
 
 							<!--Begin Modal-->
 							<!-- Button trigger modal -->
-							<a class="btn btn-link" data-toggle="modal" data-target="#regionalData">Launch demo
-								modal</a>
+							<div class="bg-azurite p-3">
+								<a class="btn btn-outline-white" data-toggle="modal" data-target="#universityData">Data
+									Source</a>
+							</div>
 
 							<!-- Modal -->
-							<div id="regionalData" class="modal fade" tabindex="-1" role="dialog"
-								aria-labelledby="regionalDataLabel" aria-hidden="true">
+							<div id="universityData" class="modal fade" tabindex="-1" role="dialog"
+								aria-labelledby="universityDataLabel" aria-hidden="true">
 								<div class="modal-dialog modal-xl" role="document">
 									<div class="modal-content">
 
 										<!--Title-->
 										<div class="modal-header">
-											<h5 class="modal-title" id="regionalDataLabel">Arizona High School Graduate
-												Projections</h5>
+											<h5 class="modal-title" id="universityDataLabel">Fall 2020 University
+												Enrollment</h5>
 											<br />
 
 											<!--Close Icon-->
@@ -287,15 +297,21 @@
 
 										<!--PDF-->
 										<div class="modal-body">
-											<embed src="./assets/pdf/Arizona.pdf" frameborder="0" width="100%"
+											<embed src="./assets/pdf/University.pdf" frameborder="0" width="100%"
 												height="724px">
 										</div>
 
 										<!--Reference-->
 										<div class="ml-3">
 											<small>Reference:</small>
-											<small>Western Interstate Commission for Higher Education. 2020. "Knocking
-												at the College Door". Retrieved from: www.knocking.wiche.edu.</small>
+											<small>Workbook developed by University of Arizona | University Analytics &
+												Institutional Research
+												https://uair.arizona.edu/content/admissions-pipeline
+												Data sourced from University of Arizona | UAccess StudentWorkbook
+												developed by University of Arizona | University Analytics &
+												Institutional Research
+												https://uair.arizona.edu/content/admissions-pipeline
+												Data sourced from University of Arizona | UAccess Student.</small>
 										</div>
 
 										<!--Close Modal-->
@@ -316,32 +332,30 @@
 				<div class="col-md-6">
 					<div class="row no-gutters bg-light position-relative">
 						<div class="col-md-6 mb-md-0 p-md-4 text-center text-chili">
-							<i class="fas fa-chalkboard-teacher fa-5x"></i>
+							<i class="fas fa-chalkboard-teacher fa-5x"></i><br />
 							<br />
-							<h5 class="px-4">College</h5>
+							<h4 class="mt-0 text-chili bold">College of Fine Arts</h4>
 						</div>
 						<div class="col-md-6 position-static p-4 pl-md-0">
-							<h5 class="mt-0">Columns with stretched link</h5>
-							<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-								sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-								condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+							<p>The Fall 2020 class is the first enrollment class to top 400 since 2004. This represents a  17% application increase from last year and 21.5% over the past two years.
 							</p>
 
 							<!--Begin Modal-->
 							<!-- Button trigger modal -->
-							<a class="btn btn-link" data-toggle="modal" data-target="#regionalData">Launch demo
-								modal</a>
+							<div class="bg-chili p-3">
+							<a class="btn btn-outline-white" data-toggle="modal" data-target="#collegeData">Data Source</a>
+							</div>
 
 							<!-- Modal -->
-							<div id="regionalData" class="modal fade" tabindex="-1" role="dialog"
-								aria-labelledby="regionalDataLabel" aria-hidden="true">
+							<div id="collegeData" class="modal fade" tabindex="-1" role="dialog"
+								aria-labelledby="collegeDataLabel" aria-hidden="true">
 								<div class="modal-dialog modal-xl" role="document">
 									<div class="modal-content">
 
 										<!--Title-->
 										<div class="modal-header">
-											<h5 class="modal-title" id="regionalDataLabel">Arizona High School Graduate
-												Projections</h5>
+											<h5 class="modal-title" id="collegeDataLabel">Fall 2020 College of Fine Arts
+												Enrollment</h5>
 											<br />
 
 											<!--Close Icon-->
@@ -352,15 +366,21 @@
 
 										<!--PDF-->
 										<div class="modal-body">
-											<embed src="./assets/pdf/Arizona.pdf" frameborder="0" width="100%"
+											<embed src="./assets/pdf/College.pdf" frameborder="0" width="100%"
 												height="724px">
 										</div>
 
 										<!--Reference-->
 										<div class="ml-3">
 											<small>Reference:</small>
-											<small>Western Interstate Commission for Higher Education. 2020. "Knocking
-												at the College Door". Retrieved from: www.knocking.wiche.edu.</small>
+											<small>Workbook developed by University of Arizona | University Analytics &
+												Institutional Research
+												https://uair.arizona.edu/content/admissions-pipeline
+												Data sourced from University of Arizona | UAccess StudentWorkbook
+												developed by University of Arizona | University Analytics &
+												Institutional Research
+												https://uair.arizona.edu/content/admissions-pipeline
+												Data sourced from University of Arizona | UAccess Student.</small>
 										</div>
 
 										<!--Close Modal-->
